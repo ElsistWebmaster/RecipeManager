@@ -1,0 +1,17 @@
+HMIPars.RecipeName,SlimLine,3x,40008,,Undesignated
+HMIPars.RecipeRd,SlimLine,0x,40030,,Undesignated
+HMIPars.RecipeWr,SlimLine,0x,40031,,Undesignated
+HMIPars.RecipeDel,SlimLine,0x,40032,,Undesignated
+HMIPars.Enable,SlimLine,0x,40033,,Undesignated
+HMIPars.Lamp,SlimLine,0x,40034,,Undesignated
+
+ListBox.Selection,SlimLine,3x,40064,,Undesignated
+ListBox.Update,SlimLine,3x,40072,,Undesignated
+ListBox.Items,SlimLine,3x,40073,,Undesignated
+ListBox.Name,SlimLine,3x,40074,,Undesignated
+
+Rcp.Description,SlimLine,3x,41024,,Undesignated
+Rcp.OffTimeMin,SlimLine,3x,41040,,Undesignated
+Rcp.OffTimeMax,SlimLine,3x,41041,,Undesignated
+Rcp.OnTimeMin,SlimLine,3x,41042,,Undesignated
+Rcp.OnTimeMax,SlimLine,3x,41043,,Undesignated

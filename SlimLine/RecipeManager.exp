@@ -1,0 +1,19 @@
+﻿	(******************************)
+	(*                            *)
+	(*     EXPORTED VARIABLES     *)
+	(*                            *)
+	(******************************)
+
+        VAR_GLOBAL
+	{G:"HMI"}
+HMIPars AT %MX100.16 : HMIPARAMETERS;	{ DE:"Parametri da HMI" }
+Rcp AT %MD100.2048 : RECIPEDATA;	{ DE:"Recipe data" }
+ListBox AT %MD100.128 : HMILISTBOXDATA;	{ DE:"HMI list box data" }
+	{G:"Inputs"}
+Di00CPU AT %IX255.0 : BOOL;	{ DE:"Inp 00 CPU module" }
+Di01CPU AT %IX255.1 : BOOL;	{ DE:"Inp 01 CPU module" }
+	{G:"Outputs"}
+Do00CPU AT %QX255.0 : BOOL;	{ DE:"Out 00 CPU module" }
+Do01CPU AT %QX255.1 : BOOL;	{ DE:"Out 01 CPU module" }
+	END_VAR
+
